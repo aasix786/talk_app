@@ -1,0 +1,53 @@
+{
+  "name": "talk",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@nozbe/watermelondb": "^0.24.0",
+    "@nozbe/with-observables": "^1.4.1",
+    "@react-native-google-signin/google-signin": "^8.2.1",
+    "@react-navigation/bottom-tabs": "^6.4.1",
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/native-stack": "^6.9.1",
+    "@rocket.chat/sdk": "RocketChat/Rocket.Chat.js.SDK#mobile",
+    "@shopify/flash-list": "^1.4.0",
+    "axios": "^0.27.2",
+    "nanoid": "^4.0.0",
+    "native-base": "^3.4.22",
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "react-native-device-info": "^10.3.0",
+    "react-native-progress": "^5.0.0",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.18.2",
+    "react-native-svg": "12.1.1",
+    "react-native-vector-icons": "^9.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-decorators": "^7.20.2",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@tsconfig/react-native": "^2.0.2",
+    "@types/jest": "^29.2.3",
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "18.1.0",
+    "typescript": "^4.9.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

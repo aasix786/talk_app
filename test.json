@@ -1,0 +1,91 @@
+{
+    "_listeners": {},
+    "userId": "",
+    "currentLogin": null,
+    "client": {
+      "_headers": {},
+      "host": "https://talk-stage.exentriq.com"
+    },
+    "controller": {},
+    "socket": {
+      "_h": 1,
+      "_i": 1,
+      "_j": {
+        "_listeners": {
+          "connected": []
+        },
+        "subscriptions": {},
+        "userId": "",
+        "joinedIds": [],
+        "config": {
+          "useSsl": true,
+          "reopen": 20000,
+          "host": "talk-stage.exentriq.com",
+          "timeout": 20000
+        },
+        "ddp": {
+          "_listeners": {
+            "ping": [
+              null
+            ],
+            "result": [
+              null
+            ],
+            "ready": [
+              null
+            ],
+            "open": [
+              null
+            ],
+            "disconnected": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "connected": [],
+            "pong": []
+          },
+          "resume": null,
+          "sent": 7,
+          "lastPing": 1668835241987,
+          "subscriptions": {},
+          "handlers": [],
+          "logger": {},
+          "config": {
+            "host": "talk-stage.exentriq.com",
+            "useSsl": true,
+            "reopen": 20000,
+            "ping": 20000
+          },
+          "host": "wss://talk-stage.exentriq.com/websocket",
+          "connection": {
+            "CONNECTING": 0,
+            "OPEN": 1,
+            "CLOSING": 2,
+            "CLOSED": 3,
+            "readyState": 1,
+            "url": "wss://talk-stage.exentriq.com/websocket",
+            "_eventEmitter": {
+              "_nativeModule": {}
+            },
+            "_socketId": 2,
+            "_subscriptions": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "protocol": ""
+          },
+          "session": "Nouh6wmBKRX33sBFZ",
+          "pingTimeout": 35
+        },
+        "logger": {}
+      },
+      "_k": null
+    }
+  }
